@@ -26,7 +26,9 @@ body {
 
 /*Navigation bar and introduction container*/
 .wrap-top {
-    background-image: linear-gradient(to top, rgba(14, 14, 14, 1) 10%, rgba(14, 14, 14, 0) 100%), url('../Assets/Media/landscape-black-center.png');
+    /* Lowered the first opacity to 0.6 so it is semi-transparent */
+    background-image: linear-gradient(to top, rgba(14, 14, 14, 0.6) 10%, rgba(14, 14, 14, 0) 100%), 
+                      url('../Assets/Media/landscape-black-center.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
